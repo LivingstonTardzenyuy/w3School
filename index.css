@@ -1,0 +1,63 @@
+#header
+{
+    display: inline-flex;
+    
+}
+#header1, #header
+{
+    display: inline-flex;
+}
+#w3school
+{
+    background-color: rgb(61, 61, 54);
+    height: 610px;
+    width: 100%;
+    position:fixed;
+}
+#nav:hover
+{
+    color: purple;
+    background-color: rgb(29, 27, 27);
+}
+#w3, #w4
+{
+    display: inline;
+}
+
+ul
+{
+    
+    
+    
+    
+    
+    list-style-type: none;
+    
+}
+ul li
+{
+    padding: 4px;
+}
+ul li a
+{
+    padding: 52px;
+}
+#front
+{
+    display: inline-flex;
+    padding: 15px;
+    
+    }
+#JavaScript
+{
+    margin-left: 100px;
+    margin-top: 0px;
+}
+#ServerSide
+{
+    margin-left: 110px;
+}
+#ArtificialIntelligence
+{
+    margin-left:120px;
+}
