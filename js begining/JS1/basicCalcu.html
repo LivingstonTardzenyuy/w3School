@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="math">let perform some basic calculations</p>
+    <script>
+        let i=0;
+        let operator=prompt("enter operator");
+
+            if (operator=="+")
+            {
+            num1=parseFloat (prompt("ente a number"));
+            num2=parseFloat (prompt("enter another number"));
+            console.log(typeof num2);
+            ans= num1+num2;
+            window.alert(ans);
+            }
+            if (operator=="-")
+            {
+                num1=parseFloat (prompt("ente a number"));
+                num2=parseFloat (prompt("enter another number"));
+                console.log(typeof num2);
+                ans= num1-num2;
+                
+                window.alert("the sum of the two numbers is",ans);
+            }
+            if (operator=="*")
+            {
+                num1=parseFloat (prompt("ente a number"));
+                num2=parseFloat (prompt("enter another number"));
+                console.log(typeof num2);
+                ans= num1*num2;
+
+                window.alert("the product of the two numbers is" ,ans);
+            }
+            if (operator=="/")
+            {
+                num1=parseFloat (prompt("ente a number"));
+                num2=parseFloat (prompt("enter another number"));
+                console.log(typeof num2);
+                ans= num1/num2;
+
+                window.alert("the division of the two numbers is" ,ans);
+            }
+            else
+            {
+                window.alert("not defined");
+            }
+    </script>
+    <button type="submit" onclick="add(num1,num2)">math</button>
+    
+</body>
+</html>
